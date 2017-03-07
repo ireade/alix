@@ -25,7 +25,7 @@ function removeStylesheet() {
 }
 
 function addStylesheet() {
-	const file = `/css/a11y-${options.language}_${options.level}.css`;
+	const file = `/a11y.css/a11y-${options.language}_${options.level}.css`;
 	const code = `
 		var stylesheet = document.createElement("link");
 		stylesheet.rel = "stylesheet";

@@ -26,13 +26,13 @@
    },
 
   "web_accessible_resources": [
-    "css/a11y-en_advice.css",
-    "css/a11y-en_error.css",
-    "css/a11y-en_obsolete.css",
-    "css/a11y-en_warning.css",
-    "css/a11y-fr_advice.css",
-    "css/a11y-fr_error.css",
-    "css/a11y-fr_obsolete.css",
-    "css/a11y-fr_warning.css"
+    "a11y.css/a11y-en_advice.css",
+    "a11y.css/a11y-en_error.css",
+    "a11y.css/a11y-en_obsolete.css",
+    "a11y.css/a11y-en_warning.css",
+    "a11y.css/a11y-fr_advice.css",
+    "a11y.css/a11y-fr_error.css",
+    "a11y.css/a11y-fr_obsolete.css",
+    "a11y.css/a11y-fr_warning.css"
   ]
 }

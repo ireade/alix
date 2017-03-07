@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+
+  "name": "Alix for Chrome",
+  "short_name": "Alix",
+  "description": "Lorem ipsum",
+  "version": "1.1",
+
+  "permissions": [
+      "activeTab"
+  ],
+
+  "browser_action": {
+    "default_title": "Toggle Alix",
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "19": "images/toolbar-chrome.png",
+      "38": "images/toolbar-chrome@2x.png"
+    }
+  },
+
+  "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+
+  "web_accessible_resources": [
+    "css/a11y-en_advice.css",
+    "css/a11y-en_error.css",
+    "css/a11y-en_obsolete.css",
+    "css/a11y-en_warning.css",
+    "css/a11y-fr_advice.css",
+    "css/a11y-fr_error.css",
+    "css/a11y-fr_obsolete.css",
+    "css/a11y-fr_warning.css"
+  ]
+}

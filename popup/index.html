@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Alix</h1>
+        </header>
+
+        <form>
+
+            <div class="input-group">
+                <label for="language">Language</label>
+                <select name="language" id="language">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="level">Minimum Notice Level</label>
+                <select name="level" id="level">
+                    <option value="advice">Everything</option>
+                    <option value="obsolete">Obsolete Stuff, Warnings, and Errors</option>
+                    <option value="warning">Warnings and Errors</option>
+                    <option value="error">Only Errors</option>
+                </select>
+            </div>
+
+
+            <div class="button-group">
+                <button id="trigger">
+                    <svg height="10px" viewBox="0 0 20 16">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M17.4253333,0.633066667 C17.1178667,0.325866667 16.6149333,0.325866667 16.3085333,0.633066667 L6.40133333,10.5413333 C6.09386667,10.8488 5.59093333,10.8488 5.28453333,10.5413333 L2.844,8.10186667 C2.5368,7.79466667 2.0336,7.79466667 1.7272,8.10186667 L0.2304,9.59973333 C-0.0768,9.90693333 -0.0768,10.4101333 0.2304,10.7165333 L5.28453333,15.7696 C5.592,16.0768 6.09493333,16.0768 6.40133333,15.7696 L18.9221333,3.24666667 C19.2293333,2.93946667 19.2293333,2.43626667 18.9221333,2.1288 L17.4253333,0.633066667 Z" fill="#fff"></path>
+                        </g>
+                    </svg>
+                    Apply
+                </button>
+                <button id="reset">Clear</button>
+            </div>
+
+            
+        </form>
+  
+
+        <footer>
+            <p>Based on <a href="http://ffoodd.github.io/a11y.css/">a11y.css</a> | <a href="">Extension</a></p>
+            
+        </footer>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

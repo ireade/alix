@@ -2,9 +2,11 @@
 
 # Alix
 
-Alix is a browser extension for a11y.css, which helpd you debug your HTML. 
+Alix is a browser extension for a11y.css. It allows you to lint your HTML for Accessibility issues simply by applying a stylesheet that makes use of advanced CSS selectors.
 
-Based on [a11y.css](http://ffoodd.github.io/a11y.css/), created by Gaël Poupard
+Based on [a11y.css](http://ffoodd.github.io/a11y.css/), created by Gaël Poupard.
+
+**[Install Alix for Chrome](https://chrome.google.com/webstore/detail/alix-for-chrome/aepmadgjacfjcneccddiccnkbpimobge)**
 
 
 ## Demo

@@ -11,12 +11,12 @@ Based on [a11y.css](http://ffoodd.github.io/a11y.css/), created by Gaël Poupard
 
 ## Demo
 
-![GIF](demo-chrome.gif)
+![GIF](https://cloud.githubusercontent.com/assets/11269635/23892433/d7c03a4c-089a-11e7-96cc-9ac1cdef5488.gif)
 
 
 ### Options
 
-![Options](demo-options.png)
+![Options](https://cloud.githubusercontent.com/assets/11269635/23892436/dac3dcb2-089a-11e7-9b92-dcdf9791d52d.png)
 
 - **Language**: The language you want the messages to be displayed in. Choose either between English or French
 

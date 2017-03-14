@@ -1,19 +1,39 @@
 let options;
 
+function showError() {
+	if (chrome.runtime.lastError) {
+		let errorElem = document.querySelector('.error');
+
+		errorElem.textContent = chrome.runtime.lastError.message;
+		errorElem.classList.remove('hidden');
+
+		setTimeout(function () {	
+			errorElem.textContent = '';
+			errorElem.classList.add('hidden');
+		}, 3000);
+	}
+	return chrome.runtime.lastError;
+}
+
 function initialiseOptions() {
 	const defaultOptions = {
 		language: 'en',
 		level: 'advice'
 	}
-	options = localStorage.getItem('a11y_options') ? JSON.parse(localStorage.getItem('a11y_options')) : defaultOptions;
-	document.getElementById('language').value = options.language;
-	document.getElementById('level').value = options.level;
+	
+	chrome.storage.sync.get(defaultOptions, result => {
+		if (!showError()) {
+			options = result;
+			document.getElementById('language').value = options.language;
+			document.getElementById('level').value = options.level;
+		}
+	});
 }
 
 function setOptions() {
 	options.language = document.getElementById('language').value;
 	options.level = document.getElementById('level').value;
-	localStorage.setItem('a11y_options', JSON.stringify(options));
+	chrome.storage.sync.set(options, showError);
 }
 
 function removeStylesheet() {
@@ -21,7 +41,7 @@ function removeStylesheet() {
 		var stylesheet = document.getElementById("a11yCSS");
 		if ( stylesheet ) { stylesheet.parentNode.removeChild(stylesheet) }
 	`;
-    chrome.tabs.executeScript({code: code});
+    chrome.tabs.executeScript({code: code}, showError);
 }
 
 function addStylesheet() {
@@ -33,7 +53,7 @@ function addStylesheet() {
 		stylesheet.id = "a11yCSS";
 		document.getElementsByTagName("head")[0].appendChild(stylesheet);
 	`;
-    chrome.tabs.executeScript({code: code});
+    chrome.tabs.executeScript({code: code}, showError);
 }
 
 initialiseOptions();

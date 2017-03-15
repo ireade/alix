@@ -1,6 +1,8 @@
 let options;
 
 function showError() {
+	const HIDE_TIMEOUT = 3000;
+	
 	if (chrome.runtime.lastError) {
 		let errorElem = document.querySelector('.error');
 
@@ -10,7 +12,7 @@ function showError() {
 		setTimeout(function () {	
 			errorElem.textContent = '';
 			errorElem.classList.add('hidden');
-		}, 3000);
+		}, HIDE_TIMEOUT);
 	}
 	return chrome.runtime.lastError;
 }

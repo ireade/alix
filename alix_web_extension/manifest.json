@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+
+  "name": "Alix",
+  "short_name": "Alix",
+  "description": "Alix allows you to lint your HTML for Accessibility issues simply by applying a stylesheet that makes use of advanced CSS selectors.",
+  "version": "1.4",
+
+  "permissions": [
+      "activeTab",
+      "storage"
+  ],
+
+  "browser_action": {
+    "default_title": "Toggle Alix",
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "19": "images/toolbar.png",
+      "38": "images/toolbar@2x.png"
+    }
+  },
+
+  "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+
+  "web_accessible_resources": [
+    "a11y.css/a11y-en_advice.css",
+    "a11y.css/a11y-en_error.css",
+    "a11y.css/a11y-en_obsolete.css",
+    "a11y.css/a11y-en_warning.css",
+    "a11y.css/a11y-fr_advice.css",
+    "a11y.css/a11y-fr_error.css",
+    "a11y.css/a11y-fr_obsolete.css",
+    "a11y.css/a11y-fr_warning.css"
+  ]
+}

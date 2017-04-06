@@ -9,9 +9,10 @@ Based on [a11y.css](http://ffoodd.github.io/a11y.css/), created by Gaël Poupard
 
 ## Install Alix
 
-Chrome | Firefox | Opera
--------|---------|-------
-<a href="https://chrome.google.com/webstore/detail/alix-for-chrome/aepmadgjacfjcneccddiccnkbpimobge"><img width="140" src="https://github.com/alrra/browser-logos/raw/master/src/chrome/chrome_256x256.png" alt="Chrome browser logo"></a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/alix/"><img width="140" src="https://github.com/alrra/browser-logos/raw/master/src/firefox/firefox_256x256.png" alt="Firefox browser logo"></a> | Coming Soon
+Chrome | Firefox | Opera | Safari
+-------|---------|-------|--------
+<a href="https://chrome.google.com/webstore/detail/alix-for-chrome/aepmadgjacfjcneccddiccnkbpimobge"><img width="100" src="https://github.com/alrra/browser-logos/raw/master/src/chrome/chrome_256x256.png" alt="Chrome browser logo"></a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/alix/"><img width="100" src="https://github.com/alrra/browser-logos/raw/master/src/firefox/firefox_256x256.png" alt="Firefox browser logo"></a> | Coming Soon | Coming Soon
+&nbsp; | 48.0+ | &nbsp; | &nbsp;
 
 
 

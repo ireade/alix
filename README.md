@@ -6,7 +6,17 @@ Alix is a browser extension for a11y.css. It allows you to lint your HTML for Ac
 
 Based on [a11y.css](http://ffoodd.github.io/a11y.css/), created by Gaël Poupard.
 
-**[Install Alix for Chrome](https://chrome.google.com/webstore/detail/alix-for-chrome/aepmadgjacfjcneccddiccnkbpimobge)**
+
+## Install Alix
+
+Chrome | Firefox | Opera | Safari
+-------|---------|-------|--------
+<a href="https://chrome.google.com/webstore/detail/alix-for-chrome/aepmadgjacfjcneccddiccnkbpimobge"><img width="100" src="https://github.com/alrra/browser-logos/raw/master/src/chrome/chrome_256x256.png" alt="Chrome browser logo"></a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/alix/"><img width="100" src="https://github.com/alrra/browser-logos/raw/master/src/firefox/firefox_256x256.png" alt="Firefox browser logo"></a> | <a href="https://addons.opera.com/en-gb/extensions/details/alix/"><img width="100" src="https://github.com/alrra/browser-logos/raw/master/src/opera/opera_256x256.png" alt="Opera browser logo"></a> | Coming Soon
+
+
+
+
+
 
 
 ## Demo

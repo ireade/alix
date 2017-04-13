@@ -1,23 +1,23 @@
 /*
- * RESET 
+ * RESET
  */
 
 html, body, div, a, form, header, footer, h1, p {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	font-size: 100%;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 
 /*
- * TYPE 
+ * TYPE
  */
 
 
@@ -29,126 +29,113 @@ html {
 body {
     line-height: 1.4;
     font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-	font-size: 1.4rem;
-	color: rgb(30,30,30);
+    font-size: 1.4rem;
+    color: #1e1e1e;
 }
 
 a {
-	color: inherit;
+    color: inherit;
 }
 
 
 
 /*
- * OTHER 
+ * OTHER
  */
 
 body {
-	width: 250px;
-	background: rgb(245,245,245);
+    width: 250px;
+    background-color: #f5f5f5;
 }
 
 
 header,
 form,
 footer {
-	padding: 15px;
+    padding: 15px;
 }
 
 header {
-	background: #ffce00;
-	padding: 10px;
-	text-align: center;
-	font-size: 1.5rem;
-	font-weight: 600;
+    background-color: #ffce00;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 footer {
-	font-size: 1.2rem;
-	text-align: center;
-	display: block;
-	border-top: 1px solid rgb(220,220,220)
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    border-top: 1px solid #dcdcdc
 }
 
 
 
 /* */
 
-
 .input-group {
-	display: block;
-	margin-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
 }
 
 label {
-	display: block;
-	margin-bottom: 5px;
-	font-size: 1.2rem;
-	font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 select {
-	width: 100%;
-	height: 30px;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-	font-size: 1.4rem;
+    width: 100%;
+    height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 1.4rem;
 }
 
 
 .button-group {
-	margin-top: 15px;
-	margin-bottom: 10px;
-	display: flex;
-	justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 button {
-	display: inline-block;
-
-	height: 30px;
-
-	box-shadow: 0 1px 3px 0 hsla(40,3%,45%,.35);
-	border: 0;
+    display: inline-block;
+    height: 30px;
+    box-shadow: 0 1px 3px 0 hsla(40,3%,45%,.35);
+    border: 0;
     border-radius: 3px;
-
     font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-	font-size: 1.3rem;
-	font-weight: 600;
-
-	cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 
 button#trigger {
-
-	width: 67%;
-	background: #88d039;
-	color: #fff;
-
+    width: 67%;
+    background-color: #88d039;
+    color: #fff;
 }
 
 button#trigger svg {
-	margin-right: 5px;
+    margin-right: 5px;
 }
 
 button#reset {
-	width: 30%;
-	color: rgb(100,100,100);
+    width: 30%;
+    color: #646464;
 }
 
 
 .error {
-	background: pink;
-	padding: 15px;
+    background-color: pink;
+    padding: 15px;
 }
+
 .hidden {
-	display: none;
+    display: none;
 }
-
-
-
-
-
-
-

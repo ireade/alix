@@ -34,6 +34,18 @@
     "a11y.css/a11y-fr_advice.css",
     "a11y.css/a11y-fr_error.css",
     "a11y.css/a11y-fr_obsolete.css",
-    "a11y.css/a11y-fr_warning.css"
+    "a11y.css/a11y-fr_warning.css",
+    "a11y.css/a11y-pt-br_advice.css",
+    "a11y.css/a11y-pt-br_error.css",
+    "a11y.css/a11y-pt-br_obsolete.css",
+    "a11y.css/a11y-pt-br_warning.css",
+    "a11y.css/a11y-ru_advice.css",
+    "a11y.css/a11y-ru_error.css",
+    "a11y.css/a11y-ru_obsolete.css",
+    "a11y.css/a11y-ru_warning.css",
+    "a11y.css/a11y-zh_advice.css",
+    "a11y.css/a11y-zh_error.css",
+    "a11y.css/a11y-zh_obsolete.css",
+    "a11y.css/a11y-zh_warning.css"
   ]
 }
